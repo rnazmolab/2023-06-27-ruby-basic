@@ -6,5 +6,4 @@
 
 ```ruby
 $ ruby ./main.rb
-Hello World!
 ```
