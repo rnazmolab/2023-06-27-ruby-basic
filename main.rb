@@ -1,6 +1,12 @@
-def double(x)
-  return x * 2
+module Greeting
+  def hello
+    puts "Hello!"
+  end
 end
 
-result = double(5)
-puts result
+class MyClass
+  include Greeting
+end
+
+obj = MyClass.new
+obj.hello
