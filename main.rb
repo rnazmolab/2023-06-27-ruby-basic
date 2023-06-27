@@ -1,7 +1,6 @@
-x = 10
-
-if x > 5
-  puts "x is greater than 5"
-else
-  puts "x is less or equal to 5"
+def double(x)
+  return x * 2
 end
+
+result = double(5)
+puts result
