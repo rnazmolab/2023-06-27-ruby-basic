@@ -1,12 +1,12 @@
-module Greeting
-  def hello
-    puts "Hello!"
+class Person
+  def initialize(name)
+    @name = name
+  end
+
+  def greet
+    puts "Hello, #{@name}!"
   end
 end
 
-class MyClass
-  include Greeting
-end
-
-obj = MyClass.new
-obj.hello
+person = Person.new("John")
+person.greet
